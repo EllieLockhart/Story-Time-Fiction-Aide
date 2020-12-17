@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB274B7258BA81000042836 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB274B6258BA81000042836 /* Tests_iOS.swift */; };
+		0DB274C2258BA81000042836 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB274C1258BA81000042836 /* Tests_macOS.swift */; };
+		0DB274C4258BA81000042836 /* Storytime_Writer_s_AssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2749B258BA80B00042836 /* Storytime_Writer_s_AssistantApp.swift */; };
+		0DB274C5258BA81000042836 /* Storytime_Writer_s_AssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2749B258BA80B00042836 /* Storytime_Writer_s_AssistantApp.swift */; };
+		0DB274C6258BA81000042836 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2749C258BA80B00042836 /* ContentView.swift */; };
+		0DB274C7258BA81000042836 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB2749C258BA80B00042836 /* ContentView.swift */; };
+		0DB274C8258BA81000042836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB2749D258BA80F00042836 /* Assets.xcassets */; };
+		0DB274C9258BA81000042836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB2749D258BA80F00042836 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DB274B3258BA81000042836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DB27496258BA80A00042836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB274A1258BA80F00042836;
+			remoteInfo = "Storytime Writer's Assistant (iOS)";
+		};
+		0DB274BE258BA81000042836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DB27496258BA80A00042836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB274A9258BA81000042836;
+			remoteInfo = "Storytime Writer's Assistant (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB2749B258BA80B00042836 /* Storytime_Writer_s_AssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storytime_Writer_s_AssistantApp.swift; sourceTree = "<group>"; };
+		0DB2749C258BA80B00042836 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DB2749D258BA80F00042836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DB274A2258BA81000042836 /* Storytime Writer's Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storytime Writer's Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB274A5258BA81000042836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB274AA258BA81000042836 /* Storytime Writer's Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storytime Writer's Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB274AC258BA81000042836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB274AD258BA81000042836 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0DB274B2258BA81000042836 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB274B6258BA81000042836 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		0DB274B8258BA81000042836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB274BD258BA81000042836 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB274C1258BA81000042836 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		0DB274C3258BA81000042836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DB2749F258BA80F00042836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274A7258BA81000042836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274AF258BA81000042836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274BA258BA81000042836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB27495258BA80A00042836 = {
+			isa = PBXGroup;
+			children = (
+				0DB2749A258BA80B00042836 /* Shared */,
+				0DB274A4258BA81000042836 /* iOS */,
+				0DB274AB258BA81000042836 /* macOS */,
+				0DB274B5258BA81000042836 /* Tests iOS */,
+				0DB274C0258BA81000042836 /* Tests macOS */,
+				0DB274A3258BA81000042836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DB2749A258BA80B00042836 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0DB2749B258BA80B00042836 /* Storytime_Writer_s_AssistantApp.swift */,
+				0DB2749C258BA80B00042836 /* ContentView.swift */,
+				0DB2749D258BA80F00042836 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0DB274A3258BA81000042836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DB274A2258BA81000042836 /* Storytime Writer's Assistant.app */,
+				0DB274AA258BA81000042836 /* Storytime Writer's Assistant.app */,
+				0DB274B2258BA81000042836 /* Tests iOS.xctest */,
+				0DB274BD258BA81000042836 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DB274A4258BA81000042836 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DB274A5258BA81000042836 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0DB274AB258BA81000042836 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DB274AC258BA81000042836 /* Info.plist */,
+				0DB274AD258BA81000042836 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		0DB274B5258BA81000042836 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DB274B6258BA81000042836 /* Tests_iOS.swift */,
+				0DB274B8258BA81000042836 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		0DB274C0258BA81000042836 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DB274C1258BA81000042836 /* Tests_macOS.swift */,
+				0DB274C3258BA81000042836 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DB274A1258BA80F00042836 /* Storytime Writer's Assistant (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB274CC258BA81000042836 /* Build configuration list for PBXNativeTarget "Storytime Writer's Assistant (iOS)" */;
+			buildPhases = (
+				0DB2749E258BA80F00042836 /* Sources */,
+				0DB2749F258BA80F00042836 /* Frameworks */,
+				0DB274A0258BA80F00042836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storytime Writer's Assistant (iOS)";
+			productName = "Storytime Writer's Assistant (iOS)";
+			productReference = 0DB274A2258BA81000042836 /* Storytime Writer's Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DB274A9258BA81000042836 /* Storytime Writer's Assistant (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB274CF258BA81000042836 /* Build configuration list for PBXNativeTarget "Storytime Writer's Assistant (macOS)" */;
+			buildPhases = (
+				0DB274A6258BA81000042836 /* Sources */,
+				0DB274A7258BA81000042836 /* Frameworks */,
+				0DB274A8258BA81000042836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storytime Writer's Assistant (macOS)";
+			productName = "Storytime Writer's Assistant (macOS)";
+			productReference = 0DB274AA258BA81000042836 /* Storytime Writer's Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DB274B1258BA81000042836 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB274D2258BA81000042836 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				0DB274AE258BA81000042836 /* Sources */,
+				0DB274AF258BA81000042836 /* Frameworks */,
+				0DB274B0258BA81000042836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB274B4258BA81000042836 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 0DB274B2258BA81000042836 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0DB274BC258BA81000042836 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DB274D5258BA81000042836 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				0DB274B9258BA81000042836 /* Sources */,
+				0DB274BA258BA81000042836 /* Frameworks */,
+				0DB274BB258BA81000042836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DB274BF258BA81000042836 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 0DB274BD258BA81000042836 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DB27496258BA80A00042836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0DB274A1258BA80F00042836 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0DB274A9258BA81000042836 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0DB274B1258BA81000042836 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0DB274A1258BA80F00042836;
+					};
+					0DB274BC258BA81000042836 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0DB274A9258BA81000042836;
+					};
+				};
+			};
+			buildConfigurationList = 0DB27499258BA80A00042836 /* Build configuration list for PBXProject "Storytime Writer's Assistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DB27495258BA80A00042836;
+			productRefGroup = 0DB274A3258BA81000042836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DB274A1258BA80F00042836 /* Storytime Writer's Assistant (iOS) */,
+				0DB274A9258BA81000042836 /* Storytime Writer's Assistant (macOS) */,
+				0DB274B1258BA81000042836 /* Tests iOS */,
+				0DB274BC258BA81000042836 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DB274A0258BA80F00042836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB274C8258BA81000042836 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274A8258BA81000042836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB274C9258BA81000042836 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274B0258BA81000042836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274BB258BA81000042836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DB2749E258BA80F00042836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB274C6258BA81000042836 /* ContentView.swift in Sources */,
+				0DB274C4258BA81000042836 /* Storytime_Writer_s_AssistantApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274A6258BA81000042836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB274C7258BA81000042836 /* ContentView.swift in Sources */,
+				0DB274C5258BA81000042836 /* Storytime_Writer_s_AssistantApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274AE258BA81000042836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB274B7258BA81000042836 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB274B9258BA81000042836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB274C2258BA81000042836 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DB274B4258BA81000042836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB274A1258BA80F00042836 /* Storytime Writer's Assistant (iOS) */;
+			targetProxy = 0DB274B3258BA81000042836 /* PBXContainerItemProxy */;
+		};
+		0DB274BF258BA81000042836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DB274A9258BA81000042836 /* Storytime Writer's Assistant (macOS) */;
+			targetProxy = 0DB274BE258BA81000042836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DB274CA258BA81000042836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DB274CB258BA81000042836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0DB274CD258BA81000042836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Storytime-Writer-s-Assistant";
+				PRODUCT_NAME = "Storytime Writer's Assistant";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DB274CE258BA81000042836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Storytime-Writer-s-Assistant";
+				PRODUCT_NAME = "Storytime Writer's Assistant";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DB274D0258BA81000042836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Storytime-Writer-s-Assistant";
+				PRODUCT_NAME = "Storytime Writer's Assistant";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0DB274D1258BA81000042836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Storytime-Writer-s-Assistant";
+				PRODUCT_NAME = "Storytime Writer's Assistant";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0DB274D3258BA81000042836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storytime Writer's Assistant (iOS)";
+			};
+			name = Debug;
+		};
+		0DB274D4258BA81000042836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Storytime Writer's Assistant (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DB274D6258BA81000042836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Storytime Writer's Assistant (macOS)";
+			};
+			name = Debug;
+		};
+		0DB274D7258BA81000042836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Respectable-Software-Company.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Storytime Writer's Assistant (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DB27499258BA80A00042836 /* Build configuration list for PBXProject "Storytime Writer's Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB274CA258BA81000042836 /* Debug */,
+				0DB274CB258BA81000042836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB274CC258BA81000042836 /* Build configuration list for PBXNativeTarget "Storytime Writer's Assistant (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB274CD258BA81000042836 /* Debug */,
+				0DB274CE258BA81000042836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB274CF258BA81000042836 /* Build configuration list for PBXNativeTarget "Storytime Writer's Assistant (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB274D0258BA81000042836 /* Debug */,
+				0DB274D1258BA81000042836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB274D2258BA81000042836 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB274D3258BA81000042836 /* Debug */,
+				0DB274D4258BA81000042836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DB274D5258BA81000042836 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB274D6258BA81000042836 /* Debug */,
+				0DB274D7258BA81000042836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DB27496258BA80A00042836 /* Project object */;
+}
